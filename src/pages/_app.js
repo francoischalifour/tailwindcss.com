@@ -5,6 +5,8 @@ import { TuiBanner } from '@/components/TuiBanner'
 import Router from 'next/router'
 import ProgressBar from '@badrap/bar-of-progress'
 
+import '@docsearch/css'
+
 const progress = new ProgressBar({
   size: 2,
   color: '#4fd1c5',
